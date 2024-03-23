@@ -226,7 +226,12 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-
+#hero {
+  width: 100%;
+  height: 100vh;
+  background: url("http://res.cloudinary.com/di93opbeg/image/upload/c_crop,ar_4:3/v1711174801/pro_fxqdeh.jpg") top center;
+  background-size: cover;
+}
 
 #hero:before {
   content: "";
@@ -285,12 +290,7 @@ h6 {
   }
 }
 
-#hero {
-  width: 100%;
-  height: 100vh;
-  background: url("assets/img/pro_fxqdeh_c_crop,ar_4_3.jpg") top center;
-  background-size: cover;
-}
+
 
 /*--------------------------------------------------------------
 # Sections General
